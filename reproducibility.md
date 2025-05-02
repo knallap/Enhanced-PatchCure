@@ -166,11 +166,11 @@ The following commands are for Table 4 (different models for CIFAR-10).
 
 ```shell
 # takes a few mins to run
-# PCURE-ViT14x2-k12
+# EPCURE-ViT14x2-k12
 python main.py --model  vitsrf14x2_split12_masked_cifar --patch-size 32 --mask-stride 1 --certify  --runtime --dataset cifar
-# PCURE-ViT14x2-k6
+# EPCURE-ViT14x2-k6
 python main.py --model  vitsrf14x2_split6_masked_cifar --patch-size 32 --mask-stride 1 --certify  --runtime --dataset cifar
-# PCURE-ViT2x2-k3
+# EPCURE-ViT2x2-k3
 python main.py --model  vitsrf2x2_split3_masked_cifar --patch-size 32 --mask-stride 1 --certify  --runtime --dataset cifar
 
 ```
