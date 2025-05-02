@@ -2,7 +2,7 @@
 
 Code for "[PatchCURE: Improving Certifiable Robustness, Model Utility, and Computation Efficiency of Adversarial Patch Defenses](https://arxiv.org/abs/2310.13076)" in USENIX Security Symposium 2024. 
 
-**Update 04/2024**: Released code and model checkpoints.
+**Update 04/2024**: Released code and model checkpoint.
 
 ### Overview
 
@@ -40,9 +40,9 @@ Tested with `torch==1.13.1` and `timm==0.9.16`. This repository should be compat
 ├── data   
 |   └── imagenet                     # data directory for imagenet # use torchvision.datasets.ImageFolder
 |
-└── checkpoints                      # directory for checkpoints
-    ├── README.md                    # details of checkpoints
-    └── ...                          # model checkpoints
+└── checkpoint                      # directory for checkpoint
+    ├── README.md                    # details of checkpoint
+    └── ...                          # model checkpoint
 ```
 
 ## Dataset
@@ -53,7 +53,7 @@ Tested with `torch==1.13.1` and `timm==0.9.16`. This repository should be compat
 
 1. See **Files** for details of each file. 
 2. Download data in **Datasets** to `data/`.
-3. Read [`checkpoints/README.md`](checkpoints/README.md) and download checkpoints from Google Drive [link](https://drive.google.com/drive/folders/146Qy-FKgSKrzuaaSluafhm3jYDQzYERj?usp=sharing) and move them to `checkpoints`.
+3. Read [`checkpoint/README.md`](checkpoint/README.md) and download checkpoint from Google Drive [link](https://drive.google.com/drive/folders/146Qy-FKgSKrzuaaSluafhm3jYDQzYERj?usp=sharing) and move them to `checkpoint`.
 4. See [`example_cmd.sh`](example_cmds.sh) for example commands for running the code and reproducing PatchCURE results reported in the paper.
 5. See `reproducibility.md` for a more detailed guide for running experiments. It was used for artifact evaluation in USENIX Security.
 
