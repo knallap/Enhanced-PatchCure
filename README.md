@@ -1,18 +1,13 @@
 # PatchCURE: Improving Certifiable Robustness, Model Utility, and Computation Efficiency of Adversarial Patch Defenses
 
-Code for "[PatchCURE: Improving Certifiable Robustness, Model Utility, and Computation Efficiency of Adversarial Patch Defenses](https://arxiv.org/abs/2310.13076)" in USENIX Security Symposium 2024. 
+Code for "[Enhancing PATCHCURE:
+Improving Robustness, Utility, and Efficiency in Adversarial Patch Defenses]. 
 
-**Update 04/2024**: Released code and model checkpoint.
+
 
 ### Overview
 
 <img src="./assets/arch.png" align="center" width="90%" alt="defense overview pipeline" >
-
-### Main results
-
-<img src="./assets/main_results.png" align="center" width="40%" alt="performance comparison" >
-
-#### Check out our [paper list for adversarial patch research](https://github.com/xiangchong1/adv-patch-paper-list) and [leaderboard for certifiable robust image classification](https://github.com/inspire-group/patch-defense-leaderboard) for fun!
 
 ## Dependency
 
@@ -54,20 +49,6 @@ Tested with `torch==1.13.1` and `timm==0.9.16`. This repository should be compat
 1. See **Files** for details of each file. 
 2. Download data in **Datasets** to `data/`.
 3. Read [`checkpoint/README.md`](checkpoint/README.md) and download checkpoint from Google Drive [link](https://drive.google.com/drive/folders/146Qy-FKgSKrzuaaSluafhm3jYDQzYERj?usp=sharing) and move them to `checkpoint`.
-4. See [`example_cmd.sh`](example_cmds.sh) for example commands for running the code and reproducing PatchCURE results reported in the paper.
-5. See `reproducibility.md` for a more detailed guide for running experiments. It was used for artifact evaluation in USENIX Security.
+4. See [`example_cmd.sh`](example_cmds.sh) for example commands for running the code and reproducing Enhanced PatchCURE results reported in the paper.
+5. See `reproducibility.md` for a more detailed guide for running experiments. 
 
-If anything is unclear, please open an issue or contact Chong Xiang (cxiang@princeton.edu).
-
-## Citation
-
-If you find our work useful in your research, please consider citing:
-
-```tex
-@inproceedings{xiang2024patchcure,
-  title={PatchCURE: Improving Certifiable Robustness, Model Utility, and Computation Efficiency of Adversarial Patch Defenses},
-  author={Xiang, Chong and Wu, Tong and Dai, Sihui and Petit, Jonathan and Jana, Suman and Mittal, Prateek},
-  booktitle = {33rd {USENIX} Security Symposium ({USENIX} Security)},
-  year={2024}
-}
-```
