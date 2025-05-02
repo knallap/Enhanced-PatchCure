@@ -1,4 +1,4 @@
-# PatchCURE: Improving Certifiable Robustness, Model Utility, and Computation Efficiency of Adversarial Patch Defenses
+# Enhancing PATCHCURE: Improving Robustness, Utility, and Efficiency in Adversarial Patch Defenses
 
 Code for "[Enhancing PATCHCURE:
 Improving Robustness, Utility, and Efficiency in Adversarial Patch Defenses]. 
