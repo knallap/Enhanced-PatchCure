@@ -1,6 +1,6 @@
 ## Overview
 
-This document provides a detailed guide to reproduce all experimental results in the main body of our PatchCURE paper.
+This document provides a detailed guide to reproduce all experimental results in the main body of our Enhanced PatchCURE paper.
 
 ## Setup
 
