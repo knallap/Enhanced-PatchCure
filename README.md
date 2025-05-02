@@ -50,5 +50,5 @@ Tested with `torch==1.13.1` and `timm==0.9.16`. This repository should be compat
 2. Download data in **Datasets** to `data/`.
 3. Read [`checkpoint/README.md`](checkpoint/README.md) and download checkpoint from Google Drive [link](https://drive.google.com/drive/folders/146Qy-FKgSKrzuaaSluafhm3jYDQzYERj?usp=sharing) and move them to `checkpoint`.
 4. See [`example_cmd.sh`](example_cmds.sh) for example commands for running the code and reproducing Enhanced PatchCURE results reported in the paper.
-5. See `reproducibility.md` for a more detailed guide for running experiments. 
+5. See [`reproducibility.md`](reproducibility.md) for a more detailed guide for running experiments. 
 
