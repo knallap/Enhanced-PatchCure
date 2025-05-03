@@ -1,6 +1,9 @@
 ## Overview
 
-This document provides a detailed guide to reproduce all experimental results in the main body of our Enhanced PatchCURE paper.
+This document provides a detailed guide to reproduce all experimental results presented in our **Enhanced PATCHCURE** paper.
+You can access the full paper here:  
+🔗 [Enhanced PATCHCURE Final Report (PDF)](https://drive.google.com/file/d/1Q4v9hqkAkd0yU__M51a0R1nJG9GgR99i/view?usp=sharing)
+
 
 ## Setup
 
@@ -95,7 +98,7 @@ In this section, we list all the commands used for getting experiment results fo
 
 #### Table 2: Main Results (as well as Figure 1 + Figure 6)
 
-The following script is used for Table 2 (clean accuracy, certified robust accuracy, and throughput of Enhanced PatchCURE models).
+The following script generates results for Table 2, including clean accuracy, certified robust accuracy, and throughput of Enhanced PatchCURE models across different configurations.
 
 ```shell
 ## feel free to add --num-img 1000 to reduce runtime for approximated results from a 1000-image random subset
@@ -138,8 +141,7 @@ python main.py --model  vitsrf2x2_split0_masked --patch-size 32 --mask-stride 1 
 
 #### Figure 4: Enhanced PatchCURE with different splitting location $k$
 
-The following commands are for Figure 4 (Enhanced PatchCURE with different parameters $k$).
-
+The following commands generate results for Figure 4, showcasing the performance of Enhanced PatchCURE across varying parameter values of $k$.
 
 ```shell
 # each a few minutes to a few hours for the entire dataset
@@ -158,11 +160,9 @@ python main.py --model  vitsrf14x2_split2_masked --patch-size 32 --mask-stride 1
 python main.py --model  vitsrf14x2_split1_masked --patch-size 32 --mask-stride 1 --certify  --runtime
 ```
 
-
-
 #### Table 4: Results for CIFAR-10
 
-The following commands are for Table 4 (different models for CIFAR-10).
+The following commands generate results for Table 4, evaluating various models on the CIFAR-10 dataset. 
 
 ```shell
 # takes a few mins to run
