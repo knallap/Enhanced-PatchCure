@@ -1,6 +1,6 @@
 # Enhancing PATCHCURE: Improving Robustness, Utility, and Efficiency in Adversarial Patch Defenses
 
-Code for "[Enhancing PATCHCURE:
+Code for [Enhancing PATCHCURE:
 Improving Robustness, Utility, and Efficiency in Adversarial Patch Defenses]. 
 
 
@@ -42,7 +42,8 @@ Tested with `torch==1.13.1` and `timm==0.9.16`. This repository should be compat
 
 ## Dataset
 
-- [ImageNet](https://image-net.org/download.php) (ILSVRC2012). 
+- [ImageNet](https://image-net.org/download.php) (ILSVRC2012).
+- [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) - will be downloaded automatically within our code (not the main focus of our experiments and only used in Table 4)
 
 ## Getting Started
 
