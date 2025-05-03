@@ -2,9 +2,6 @@
 
 Code for [Enhancing PATCHCURE:
 Improving Robustness, Utility, and Efficiency in Adversarial Patch Defenses]. 
-
-# Enhanced PATCHCURE
-
 This project extends the [PATCHCURE](https://arxiv.org/abs/2310.13076) framework to improve robustness, clean accuracy, and inference speed under adversarial patch attacks. It includes three practical enhancements designed for real-world deployment and evaluation on CIFAR-10 and ImageNet.
 
 ---
