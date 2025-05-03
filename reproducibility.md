@@ -2,7 +2,7 @@
 
 This document provides a detailed guide to reproduce all experimental results presented in our **Enhanced PATCHCURE** paper.
 You can access the full paper here:  
-🔗 [Enhanced PATCHCURE Final Report (PDF)](https://drive.google.com/file/d/1Q4v9hqkAkd0yU__M51a0R1nJG9GgR99i/view?usp=sharing)
+🔗 [Enhanced PATCHCURE (PDF)](https://drive.google.com/file/d/1Q4v9hqkAkd0yU__M51a0R1nJG9GgR99i/view?usp=drive_link)
 
 
 ## Setup
