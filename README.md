@@ -3,6 +3,37 @@
 Code for [Enhancing PATCHCURE:
 Improving Robustness, Utility, and Efficiency in Adversarial Patch Defenses]. 
 
+# Enhanced PATCHCURE
+
+This project extends the [PATCHCURE](https://arxiv.org/abs/2310.13076) framework to improve robustness, clean accuracy, and inference speed under adversarial patch attacks. It includes three practical enhancements designed for real-world deployment and evaluation on CIFAR-10 and ImageNet.
+
+---
+
+## 🔍 Background
+
+Adversarial patch attacks are a class of physical-world adversarial examples that fool deep vision models using localized, visible image perturbations. These attacks pose serious threats in high-stakes settings like autonomous driving, facial recognition, and surveillance.
+
+**PATCHCURE** addresses the key challenge of balancing the **three-way trade-off** between:
+- **Certifiable Robustness**: Provable guarantees that predictions remain stable under patch attacks.
+- **Model Utility**: Maintaining high clean accuracy on benign inputs.
+- **Computational Efficiency**: Achieving fast, scalable inference.
+
+It does so by combining **Small Receptive Field (SRF)** and **Large Receptive Field (LRF)** sub-models and using a masking-based secure operation. By adjusting a "split layer" \(k\), PATCHCURE allows users to choose their trade-off point.
+
+---
+
+## 🚀 Enhancements in This Version
+
+We introduce three practical upgrades to the original PATCHCURE framework:
+
+- **Hyperparameter Optimization**  
+  Tuned patch size and mask stride to slightly boost clean and certified accuracy without changing the architecture.
+
+- **Test-Time Augmentation (TTA)**  
+  Applied lightweight augmentations (e.g., flips, rotations, contrast shifts) during inference to improve clean accuracy in real-world conditions.
+
+- **Redesigned Secure Operation**  
+  Replaced argmax-based aggregation with a softmax-based, confidence-aware voting scheme. Also optimized secure masking with batch operations to dramatically improve throughput.
 
 
 ### Overview
