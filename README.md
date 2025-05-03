@@ -9,7 +9,7 @@ This project extends the [PATCHCURE](https://arxiv.org/abs/2310.13076) framework
 
 ---
 
-## 🔍 Background
+## Background
 
 Adversarial patch attacks are a class of physical-world adversarial examples that fool deep vision models using localized, visible image perturbations. These attacks pose serious threats in high-stakes settings like autonomous driving, facial recognition, and surveillance.
 
@@ -27,7 +27,7 @@ It does so by combining **Small Receptive Field (SRF)** and **Large Receptive Fi
 
 ---
 
-## 🚀 Enhancements in This Version
+## Our ehancements to this PATCHCURE Version
 
 We introduce three practical upgrades to the original PATCHCURE framework:
 
