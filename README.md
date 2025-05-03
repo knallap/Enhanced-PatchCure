@@ -18,6 +18,11 @@ Adversarial patch attacks are a class of physical-world adversarial examples tha
 - **Model Utility**: Maintaining high clean accuracy on benign inputs.
 - **Computational Efficiency**: Achieving fast, scalable inference.
 
+  
+### Framework
+
+<img src="./assets/arch.png" align="center" width="90%" alt="defense overview pipeline" >
+
 It does so by combining **Small Receptive Field (SRF)** and **Large Receptive Field (LRF)** sub-models and using a masking-based secure operation. By adjusting a "split layer" \(k\), PATCHCURE allows users to choose their trade-off point.
 
 ---
@@ -35,10 +40,6 @@ We introduce three practical upgrades to the original PATCHCURE framework:
 - **Redesigned Secure Operation**  
   Replaced argmax-based aggregation with a softmax-based, confidence-aware voting scheme. Also optimized secure masking with batch operations to dramatically improve throughput.
 
-
-### Overview
-
-<img src="./assets/arch.png" align="center" width="90%" alt="defense overview pipeline" >
 
 ## Dependency
 
