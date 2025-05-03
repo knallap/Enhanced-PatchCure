@@ -93,7 +93,7 @@ In this section, we list all the commands used for getting experiment results fo
    - When ``--num_img`` is set to a negative integer, we will use the entire dataset for experiments; when it is set to a positive integer, we will use a random subset (with ``num_img`` images) for experiments.
 
 
-#### Table 2: main results (as well as Figure 1 + Figure 6)
+#### Table 2: Main Results (as well as Figure 1 + Figure 6)
 
 The following script is used for Table 2 (clean accuracy, certified robust accuracy, and throughput of Enhanced PatchCURE models).
 
@@ -160,7 +160,7 @@ python main.py --model  vitsrf14x2_split1_masked --patch-size 32 --mask-stride 1
 
 
 
-#### Table 4: results for cifar10
+#### Table 4: Results for CIFAR-10
 
 The following commands are for Table 4 (different models for CIFAR-10).
 
